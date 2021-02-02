@@ -1,0 +1,26 @@
+使用MobaXterm进行远程登录Linux系统
+ps -a查看系统中正在运行的程序
+reboot重启系统
+kill swsim PID的值   关闭正在运行的程序
+./swsim  运行程序
+
+
+在Mobaxterm 中运行QT程序
+1、进入运行文件所在的目录
+cd /文件名
+2、生成.pro文件
+qmake -project
+3、生成Makefile
+qmake xxx.pro
+4、编译
+make
+5、运行
+./文件名
+
+在linux系统下操作的一些快捷方式
+1、当按下tab键输入前几个字母，就可自动不全
+2、↑取得上一个命令，↓取得下一个命令
+3、查找文件 ls
+4、进入新界面按下Q退出
+5、Ctrl+Z退出正在运行的程序
+6、.表示当前目录  ..表示上一级目录  ../..表示上上机目录
